@@ -2394,7 +2394,7 @@
 
 			ul.major-icons li {
 				display: inline-block;
-				padding: 2.5em;
+				padding: 1.5em;
 				text-align: center;
 			}
 
@@ -3419,3 +3419,39 @@
 			}
 
 	}
+
+.language-icon{
+	height: 100px;
+}
+
+.align-left {
+	float:left;
+	margin-right:20px;
+}
+
+.align-right {
+	float:right;
+	margin-left:20px;
+}
+
+.slide-in {
+      opacity:0;
+      transition:all .5s;
+    }
+
+		.align-left.slide-in {
+    	transform:translateX(-30%) scale(0.95);
+    }
+    .align-right.slide-in {
+      transform:translateX(30%) scale(0.95);
+    }
+
+    .slide-in.active {
+      opacity:1;
+      transform:translateX(0%) scale(1);
+    }
+
+.profile-pic{
+	height: 40%;
+	width: 40%;
+}
